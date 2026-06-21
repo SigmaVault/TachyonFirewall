@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tachyon-firewall"
+version = "0.1.0"
+description = "Visualization of tachyon condensation on an open string."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.6",
+    "numpy>=1.24",
+]
+
+[project.scripts]
+tachyon-firewall = "src.cli:main"
+
+[tool.setuptools]
+packages = ["src"]
