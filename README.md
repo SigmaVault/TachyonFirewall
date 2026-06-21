@@ -1,4 +1,4 @@
-# TachyonVisualization
+# TachyonFirewall
 
 Visualization of tachyon condensation on an open string.
 
